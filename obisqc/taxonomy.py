@@ -49,7 +49,8 @@ def check(records, cache=None):
                     "aphia": taxon["aphia"],
                     "unaccepted": taxon["unaccepted"],
                     "marine": taxon["marine"],
-                    "brackish": taxon["brackish"]
+                    "brackish": taxon["brackish"],
+                    "aphia_info": taxon["aphia_info"]
                 },
                 "dropped": taxon["dropped"]
             })
